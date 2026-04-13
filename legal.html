@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rechtliches — KAPITALARCHITEKTUR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Outfit:wght@200;300;400;500&family=JetBrains+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --brass: #c4956a;
+      --bg-deep: #070b14;
+      --text-primary: #e8e4df;
+      --text-secondary: #8b8680;
+      --text-muted: #5a5550;
+      --border: rgba(196, 149, 106, 0.12);
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--bg-deep);
+      color: var(--text-primary);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      padding: 16px 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      background: rgba(7, 11, 20, 0.85);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-logo {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 4px;
+      color: var(--brass);
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    .nav-back {
+      font-size: 12px;
+      color: var(--brass);
+      text-decoration: none;
+      letter-spacing: 1px;
+    }
+
+    .nav-back:hover { text-decoration: underline; }
+
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 120px 24px 80px;
+    }
+
+    .page-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 42px;
+      font-weight: 300;
+      margin-bottom: 48px;
+    }
+
+    .legal-section {
+      margin-bottom: 64px;
+      padding-top: 32px;
+    }
+
+    .legal-section h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 28px;
+      font-weight: 400;
+      margin-bottom: 24px;
+      color: var(--brass);
+    }
+
+    .legal-section h3 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      margin: 24px 0 12px;
+    }
+
+    .legal-section p, .legal-section li {
+      font-size: 14px;
+      font-weight: 300;
+      color: var(--text-secondary);
+      line-height: 1.8;
+      margin-bottom: 12px;
+    }
+
+    .legal-section ul {
+      padding-left: 20px;
+      margin-bottom: 16px;
+    }
+
+    .legal-section a {
+      color: var(--brass);
+      text-decoration: none;
+    }
+
+    .legal-section a:hover { text-decoration: underline; }
+
+    .divider {
+      height: 1px;
+      background: var(--border);
+      margin: 48px 0;
+    }
+
+    .footer {
+      padding: 32px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 11px;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="nav-logo">Kapitalarchitektur</a>
+  <a href="index.html" class="nav-back">← Zurück zur Startseite</a>
+</nav>
+
+<div class="container">
+  <h1 class="page-title">Rechtliches</h1>
+
+  <!-- IMPRESSUM -->
+  <section class="legal-section" id="impressum">
+    <h2>Impressum</h2>
+    <p><strong>Angaben gemäß § 5 TMG:</strong></p>
+    <p>
+      HIGHERPlan GmbH<br>
+      Dorfstraße 43<br>
+      39539 Havelberg<br>
+      Deutschland
+    </p>
+    <p>
+      Handelsregister: HRB 37179, Amtsgericht Stendal<br>
+      Geschäftsführer: Dennis Goldhammer, Tarek Zeidan
+    </p>
+    <h3>Kontakt</h3>
+    <p>E-Mail: hallo@higherplan.co</p>
+    <h3>Umsatzsteuer-ID</h3>
+    <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz: [USt-IdNr. einfügen]</p>
+    <h3>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h3>
+    <p>Dennis Goldhammer, Dorfstraße 43, 39539 Havelberg</p>
+    <h3>Haftungshinweis</h3>
+    <p>KAPITALARCHITEKTUR ist ein Bildungsprogramm für unternehmerische Kapitalstrategie. Die bereitgestellten Inhalte dienen ausschließlich der allgemeinen Information und unternehmerischen Bildung. Sie stellen ausdrücklich keine individuelle Anlageberatung im Sinne des § 34f GewO, keine Steuerberatung im Sinne des StBerG und keine Rechtsberatung im Sinne des RDG dar. Für individuelle Finanz-, Steuer- oder Rechtsberatung wenden Sie sich bitte an die entsprechenden Fachleute.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- DATENSCHUTZ -->
+  <section class="legal-section" id="datenschutz">
+    <h2>Datenschutzerklärung</h2>
+
+    <h3>1. Verantwortlicher</h3>
+    <p>HIGHERPlan GmbH, Dorfstraße 43, 39539 Havelberg. E-Mail: hallo@higherplan.co</p>
+
+    <h3>2. Erhebung und Speicherung personenbezogener Daten</h3>
+    <p>Beim Besuch dieser Website werden automatisch Informationen an den Server übermittelt (Server-Logfiles). Diese Informationen können nicht bestimmten Personen zugeordnet werden. Eine Zusammenführung mit anderen Datenquellen wird nicht vorgenommen.</p>
+
+    <h3>3. Newsletter / E-Mail-Marketing</h3>
+    <p>Wenn Sie sich für unseren kostenlosen Guide oder Newsletter anmelden, werden Ihre E-Mail-Adresse und ggf. Ihr Name gespeichert. Wir nutzen den Dienst Brevo (ehemals Sendinblue), Brevo SAS, 106 Boulevard Haussmann, 75008 Paris, Frankreich. Die Datenverarbeitung erfolgt auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Sie können diese Einwilligung jederzeit widerrufen.</p>
+
+    <h3>4. Zahlungsabwicklung</h3>
+    <p>Zahlungen werden über Stripe, Inc. abgewickelt. Bei Kaufabschluss werden die für die Zahlungsabwicklung erforderlichen Daten an Stripe übermittelt. Die Datenschutzerklärung von Stripe finden Sie unter <a href="https://stripe.com/de/privacy" target="_blank">stripe.com/de/privacy</a>.</p>
+
+    <h3>5. Hosting</h3>
+    <p>Diese Website wird bei Netlify, Inc. gehostet. Netlify kann technische Daten wie IP-Adressen, Browsertyp und Zugriffszeiten erheben. Weitere Informationen: <a href="https://www.netlify.com/privacy/" target="_blank">netlify.com/privacy</a>.</p>
+
+    <h3>6. Google Fonts</h3>
+    <p>Diese Website nutzt Google Fonts. Beim Aufruf wird eine Verbindung zu Servern von Google hergestellt. Weitere Informationen: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>.</p>
+
+    <h3>7. Ihre Rechte</h3>
+    <p>Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch. Kontaktieren Sie uns unter hallo@higherplan.co.</p>
+
+    <h3>8. Beschwerderecht</h3>
+    <p>Sie haben das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- AGB -->
+  <section class="legal-section" id="agb">
+    <h2>Allgemeine Geschäftsbedingungen</h2>
+
+    <h3>§ 1 Geltungsbereich</h3>
+    <p>Diese AGB gelten für alle über diese Website geschlossenen Verträge zwischen der HIGHERPlan GmbH (nachfolgend „Anbieter") und dem Kunden über das digitale Bildungsprogramm KAPITALARCHITEKTUR.</p>
+
+    <h3>§ 2 Vertragsgegenstand</h3>
+    <p>Der Anbieter stellt dem Kunden nach Kaufabschluss Zugang zu digitalen Videoinhalten, Workbooks und Begleitmaterialien bereit. Es handelt sich um ein digitales Bildungsprodukt — nicht um Anlageberatung, Steuerberatung oder Rechtsberatung.</p>
+
+    <h3>§ 3 Vertragsschluss</h3>
+    <p>Durch Klicken des Kauf-Buttons gibt der Kunde ein verbindliches Angebot ab. Der Vertrag kommt mit Zugang der Bestellbestätigung per E-Mail zustande.</p>
+
+    <h3>§ 4 Preise und Zahlung</h3>
+    <p>Alle Preise verstehen sich als Endpreise inkl. der gesetzlichen Mehrwertsteuer. Die Zahlung erfolgt über Stripe. Unterstützte Zahlungsmethoden: Kreditkarte, SEPA-Lastschrift, Apple Pay, Google Pay.</p>
+
+    <h3>§ 5 Zugang und Nutzung</h3>
+    <p>Nach Zahlungseingang erhält der Kunde per E-Mail den Zugang zu den Programminhalten. Der Zugang ist zeitlich unbegrenzt und auf die persönliche Nutzung des Kunden beschränkt. Eine Weitergabe ist nicht gestattet.</p>
+
+    <h3>§ 6 Urheberrecht</h3>
+    <p>Alle Inhalte des Programms sind urheberrechtlich geschützt. Die Vervielfältigung, Verbreitung oder öffentliche Zugänglichmachung — auch auszugsweise — bedarf der schriftlichen Genehmigung des Anbieters.</p>
+
+    <h3>§ 7 Haftung</h3>
+    <p>Die Inhalte dienen der allgemeinen unternehmerischen Bildung. Der Anbieter haftet nicht für individuelle finanzielle Entscheidungen, die auf Basis der Programminhalte getroffen werden. Eine Haftung für mittelbare Schäden und entgangenen Gewinn ist ausgeschlossen.</p>
+
+    <h3>§ 8 Schlussbestimmungen</h3>
+    <p>Es gilt das Recht der Bundesrepublik Deutschland. Sollten einzelne Bestimmungen unwirksam sein, bleibt der Vertrag im Übrigen wirksam.</p>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- WIDERRUFSBELEHRUNG -->
+  <section class="legal-section" id="widerruf">
+    <h2>Widerrufsbelehrung</h2>
+
+    <h3>Widerrufsrecht</h3>
+    <p>Sie haben das Recht, binnen 14 Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen. Die Widerrufsfrist beträgt 14 Tage ab dem Tag des Vertragsschlusses.</p>
+    <p>Um Ihr Widerrufsrecht auszuüben, müssen Sie uns</p>
+    <p>
+      HIGHERPlan GmbH<br>
+      Dorfstraße 43<br>
+      39539 Havelberg<br>
+      E-Mail: hallo@higherplan.co
+    </p>
+    <p>mittels einer eindeutigen Erklärung (z. B. per E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren.</p>
+    <p>Zur Wahrung der Widerrufsfrist reicht es aus, dass Sie die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absenden.</p>
+
+    <h3>Folgen des Widerrufs</h3>
+    <p>Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, unverzüglich und spätestens binnen 14 Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf dieses Vertrags bei uns eingegangen ist. Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben.</p>
+  </section>
+</div>
+
+<footer class="footer">
+  KAPITALARCHITEKTUR · Ein LibryX Program · HIGHERPlan GmbH · Dorfstraße 43 · 39539 Havelberg
+</footer>
+
+</body>
+</html>
